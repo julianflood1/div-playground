@@ -6,10 +6,18 @@
             box-sizing: border-box;
 }
 
+.border-div {
+  border: solid #00b3b4 8px;
+  width: 1400px;
+  height: 900px;
+  position: absolute;
+  margin: 100px;
+}
+
 .main-div{
   width: 1200px;
   height: 500px;
-  background-color: yellow;
+  background-color: white;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -45,13 +53,13 @@
   border: grey solid 2px;
   color: #9219fd;
 }
-p {
+#lemon-text{
   margin: 0;
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
-  padding: 5px;
   text-align: left;
+  padding: 5px;
 }
 img {
   position: relative;
@@ -73,6 +81,36 @@ h1 {
 .text-div {
   height: 500px;
   width: 650px;
-  background-color: red;
+  background-color: white;
   float: right;
+  border: solid 2px #9219fd;
+}
+.text-mini-div {
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  border-bottom: solid 2px #9219fd;
+  text-align: center;
+}
+
+#ABC {
+  position: relative;
+  text-align: center;
+  color: #9219fd;
+  top: 15px;
+}
+#numbers {
+  position: relative;
+  text-align: right;
+  letter-spacing: 25px;
+  bottom: 17px;
+  color: #9219fd;
+}
+#main-text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em;
+  font-size: 25px;
+  margin-top: 23%;
+  text-align: center;
 }
